@@ -10,8 +10,8 @@ module.exports = [
       return {
         error: 0,
         data: {
-          username: Random.cname,
-          nickname: Random.cname,
+          username: Random.cname(),
+          nickname: Random.cname(),
         },
       };
     },
